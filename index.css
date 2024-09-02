@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 70%; 
+    background-color: #6943FF;
+}
+
+h1 {
+    margin-bottom: 20px; 
+    font-size: 38px;
+    font-weight: 400; /* Corrected font-weight */
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.converter {
+    width: 117px;
+    height: 83px;
+    border-radius: 5px;
+    border: #B295FF 2px solid;
+    background-color: #6943FF;
+    text-align: center;
+    font-size: 58px;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+.con-btn {
+    margin: 10px 0; 
+    width: 117px;
+    height: 42px;
+    background-color: #FFFFFF;
+    color: #3D3D3D;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;   
+}
+
+/* Section for the calculation area */
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px; /* Adjust this value to move the content further down or up */
+    width: 70%; /* Ensure the div takes the full width of the screen */
+    background-color: #1F2937;
+}
+
+.heading1, .heading2, .heading3 {
+    width: 900px;
+    height: 108px;
+    border-radius: none;
+    background-color: #273549;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #CCC1FF;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.results {
+    color: #FFFFFF;
+    margin-top: 0px; /* Add margin-top for spacing under headings */
+    text-align: center; /* Center-align the text */
+    width: 900px; /* Ensure the width matches the headings */
+    background-color: #1F2937; /* Optional: match the heading background */
+    padding: 10px 0; /* Add padding for better readability */
+    font-size: 20px;
+    padding-top: 0%;
+}
